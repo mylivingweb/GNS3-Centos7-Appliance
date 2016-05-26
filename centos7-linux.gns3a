@@ -1,0 +1,41 @@
+{
+    "name": "CentOS 7",
+    "category": "guest",
+    "description": "The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem.",
+    "vendor_name": "CentOS Linux Community",
+    "vendor_url": "https://www.centos.org/",
+    "documentation_url": "https://wiki.centos.org/",
+    "product_name": "CentOS Linux",
+    "registry_version": 1,
+    "status": "experimental",
+    "maintainer": "matt",
+    "maintainer_email": "mylivingweb@gmail.com",
+    "usage": "User is root. Password is gns3. It is recommended to use this appliance on a remote GNS3 Server",
+    "symbol": "linux_guest.svg",
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 4,
+        "ram": 2048,
+        "arch": "x86_64",
+        "console_type": "vnc",
+        "kvm": "allow"
+    },
+    "images": [
+        {
+            "filename": "centos7.qcow2",
+            "version": "1",
+            "md5sum": "11a7fc791f3975e1aec56db97e8ac6e5",
+            "filesize": 1709133824,
+            "download_url": "https://github.com/mylivingweb/GNS3-Centos7-Appliance",
+            "direct_download_url": "https://github.com/mylivingweb/GNS3-Centos7-Appliance"
+        }
+    ],
+    "versions": [
+        {
+            "name": "1",
+            "images": {
+                "hda_disk_image": "centos7.qcow2"
+            }
+        }
+    ]
+}
