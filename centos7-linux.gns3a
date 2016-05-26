@@ -27,7 +27,7 @@
             "md5sum": "11a7fc791f3975e1aec56db97e8ac6e5",
             "filesize": 1709133824,
             "download_url": "https://github.com/mylivingweb/GNS3-Centos7-Appliance",
-            "direct_download_url": "https://github.com/mylivingweb/GNS3-Centos7-Appliance"
+            "direct_download_url": "https://github.com/mylivingweb/GNS3-Centos7-Appliance/raw/master/centos7.qcow.tar.gz"
         }
     ],
     "versions": [
